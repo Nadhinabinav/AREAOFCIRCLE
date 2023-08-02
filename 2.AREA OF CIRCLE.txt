@@ -1,0 +1,19 @@
+   2.AREA OF CIRCLE
+
+#include <stdio.h>
+void main()
+{
+    float pi,r,a;
+    printf("the value of pi: ");
+    scanf("%f",&pi);
+     printf("the value of r: ");
+    scanf("%f",&r);
+    a=pi*r*r;
+    printf("Area of circle is %f",a);
+
+}
+
+OUTPUT:
+the value of pi: 3.14
+the value of r: 10
+Area of circle is 314.000000
